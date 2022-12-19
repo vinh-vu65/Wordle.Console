@@ -25,19 +25,19 @@ public class ClueGenerator : IClueGenerator
     {
         guess = guess.ToUpper();
         var clues = new[] {Clue.Black, Clue.Black, Clue.Black, Clue.Black, Clue.Black};
-        var guessTally = new Dictionary<char, int>(WordTally);
-        for (var i= 0; i<guess.Length; i++)
+        var letterTally = new Dictionary<char, int>(WordTally);
+        for (var i = 0; i < guess.Length; i++)
         {
             if (guess[i] != Word[i]) continue;
             clues[i] = Clue.Green;
-            guessTally[guess[i]]--;
+            letterTally[guess[i]]--;
         }
         
-        for (var i= 0; i<guess.Length; i++)
+        for (var i = 0; i < guess.Length; i++)
         {
-            if (!guessTally.Keys.Contains(guess[i])) continue;
-            guessTally[guess[i]]--;
-            if (guessTally[guess[i]] >= 0)
+            if (!letterTally.Keys.Contains(guess[i])) continue;
+            letterTally[guess[i]]--;
+            if (letterTally[guess[i]] >= 0)
             {
                 clues[i] = Clue.Yellow;
             }
