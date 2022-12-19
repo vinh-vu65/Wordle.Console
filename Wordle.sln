@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle.Code", "Wordle.Code\Wordle.Code.csproj", "{54479B39-ADE3-414B-B06A-862B33E12D0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wordle.Tests", "Wordle.Tests\Wordle.Tests.csproj", "{AF367EC7-10E5-4528-8AAD-52D64C7C023B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54479B39-ADE3-414B-B06A-862B33E12D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54479B39-ADE3-414B-B06A-862B33E12D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54479B39-ADE3-414B-B06A-862B33E12D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54479B39-ADE3-414B-B06A-862B33E12D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF367EC7-10E5-4528-8AAD-52D64C7C023B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF367EC7-10E5-4528-8AAD-52D64C7C023B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF367EC7-10E5-4528-8AAD-52D64C7C023B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF367EC7-10E5-4528-8AAD-52D64C7C023B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
